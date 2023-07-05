@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.contenier img{
+    width: 250px;
+    height: 400px;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+    width: 100%;
+}
+
+.bulb-on {
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: green;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.bulb-off {
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: red;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.on{
+    display: none;
+}
+
+.on_active{
+    display: block;
+}
+
+.on_next{
+    display: none;
+}
+.off_active{
+    display: none;
+}
+
+.of{
+    display: block;
+}
+
+.off_next{
+    display: block;
+}
